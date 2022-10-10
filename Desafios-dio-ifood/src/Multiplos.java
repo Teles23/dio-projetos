@@ -19,7 +19,7 @@ public class Multiplos {
 
         for (int i = 1; i <= N; i++) {
             if (i % A == 0) {
-                soma = soma + i;
+                soma +=i;
             }
         }
         System.out.println(soma);
