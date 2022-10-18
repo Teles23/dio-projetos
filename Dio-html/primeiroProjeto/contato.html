@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="base.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="menu ">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobre.html">Sobre a Clínica</a></li>
+                <li><a href="horario.html">Horários</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header"
+                style="background-image: url(/img/contato.png);background-size: cover ;background-position: 0%;">
+                <!-- Aqui vai o seu header -->
+
+            </div>
+
+            <div class="content">
+                <!-- Aqui vai o seu conteúdo -->
+                <fieldset>
+                    <legend>Dados para Contato</legend>
+                    <form name="cadastro" action="#" method="post">
+                        <div class="form">
+                            <input type="text" name="nome" placeholder="Nome" /><br>
+                            <input type="email" name="email" placeholder="Email" /><br>
+                            <input type="text" name="assunto " placeholder="Assunto" /><br>
+                             <textarea  name="mensagem" placeholder="Mensagem" id="" cols="30" rows="10"></textarea>
+                        </div>
+                            <button type="submit">Enviar</button>
+                            <button type="reset">Limpar</button>
+
+                    </form>
+                </fieldset>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.4488920879176!2d-38.49547818509386!3d-13.007061390832602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71603348443f9c9%3A0xca1b7c0c001b0dbd!2sRede%20Mater%20Dei%20de%20Sa%C3%BAde%20-%20Mater%20Dei%20Salvador!5e0!3m2!1spt-BR!2sbr!4v1666120095364!5m2!1spt-BR!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <footer>
+                <div class="footer-social-media ">
+                    <!-- Aqui vai o seu rodapé -->
+                    <p style="text-align: center;"><strong>Siga-nos nas redes sociais!</strong></p>
+                    <ul class="footer flex-center">
+                        <li><a href="#" target="_blank" rel="noopener noreferrer"><i
+                                    class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="#" target="_blank" rel="noopener noreferrer"><i
+                                    class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#" target="_blank" rel="noopener noreferrer"><i
+                                    class="fa-brands fa-facebook"></i></a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>

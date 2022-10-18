@@ -1,0 +1,97 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+a{
+    color: aliceblue;
+}
+table  {
+    border: 1px solid gray;
+    -webkit-box-shadow: 10px 8px 21px 10px rgba(0,0,0,0.6); 
+    box-shadow: 10px 8px 21px 10px rgba(0,0,0,0.6);
+}
+table tbody{
+    text-align: center;
+}
+table tbody tr:nth-child(even){
+    background-color: cornflowerblue;
+    
+}
+table thead th{
+    background-color: black;
+    color: #f1f1f1;
+}
+footer{
+    background-color: darkgray;
+    top: 0;
+    width: 100%;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
+.menu {
+    width: 15%;
+    background-color:black;
+    display: flex;
+    padding: 10px 20px 0px;
+}
+.menu ul{
+    padding:20px;
+    margin-top: 80px;
+}
+.menu ul li{
+    margin: 30px 0px;
+    list-style: none;
+    text-transform: uppercase;
+}
+.menu ul li a:hover{
+    color: goldenrod;
+    cursor: pointer;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.header{
+    height: 400px;
+    min-height: 150px;
+}
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    display: flex;
+	justify-content: center;
+    min-height: 10px;
+}
+
+.flex-center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer-social-media ul li{
+	margin: 0 10px;
+	list-style: none;
+}
+.footer-social-media ul li a:hover{ 
+ 	color:darkmagenta;
+}
+.form{
+    display: flex;
+    flex-direction:column;
+}
+
+
