@@ -1,3 +1,2 @@
-# dio-java
-Repositorio para armazenar todo conteúdo do curso em java
-Alterando conteudo de forma local
+# PROJETOS DA DIO
+Repositorio para armazenar todos projetos construídos com a plataforma de ensino dio.
