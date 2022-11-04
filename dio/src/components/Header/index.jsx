@@ -11,7 +11,6 @@ import {
 } from "./styles";
 const Header = () => {
   return (
-    <>
       <Wrapper>
         <Container>
           <Row>
@@ -28,8 +27,7 @@ const Header = () => {
           </Row>
         </Container>
       </Wrapper>
-      <Header>index</Header>
-    </>
+    
   );
 };
 
